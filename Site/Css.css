@@ -15,6 +15,17 @@
     box-sizing: border-box;
 }
 
+
+.text
+{
+    display: inline-block;
+}
+
+.imagem
+{
+    display: inline-block;
+}
+
 body 
 {
     background-color: var(--cor5);
@@ -211,8 +222,8 @@ header > img {
     color: white;
     align-items: center;
     justify-content: center;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 1000px;
+    max-width: 2000px;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
