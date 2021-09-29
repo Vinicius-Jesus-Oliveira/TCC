@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to bottom, #292727, #141414);
+    background-attachment: fixed;
+    color: white;
+    min-width: 280px;
+}
+
+.povo,
+.direitos {
+    padding: 10px;
+}
+
+.marcel {
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 8px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+li {
+    font-size: 13px;
+}
+
+img {
+    height: 7%;
+    width: 7%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
+}
+
+#direitos {
+    color: #0EC9CA;
+    text-align: center;
+}
