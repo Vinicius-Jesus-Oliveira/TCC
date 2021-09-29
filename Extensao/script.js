@@ -31,6 +31,10 @@ function getSymbol() {
 function generatePassword() {
     const len = lenEl.value
 
+    if (len > 30) {
+        alert("Máximo de Caractéres excedido!")
+    } else {
+
     let password = ""
 
     if (upperEl.checked) {
@@ -55,6 +59,7 @@ function generatePassword() {
     }
 
     pwEl.innerText = password
+}
 }
 
 function generateX() {

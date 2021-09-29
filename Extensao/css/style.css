@@ -69,7 +69,31 @@ body
 .top-mid
 {
 	margin: 0px;
-	width: 150%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.top-mid div {
+	max-width: 25%;
+	display: flex;
+	padding: 1rem;
+	max-height: 50px;
+	justify-content: center;
+	align-items: center;
+} 
+
+.top-mid div img,
+.top-mid div a {
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.top-mid div a img {
+	width: 100%;
+	height: 100%;
 }
 
 .linha
