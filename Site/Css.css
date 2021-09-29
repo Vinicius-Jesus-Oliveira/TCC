@@ -27,7 +27,7 @@ body
 }
 
 main {
-    background-color: var(--cor6);
+    background-image: linear-gradient(to bottom, #2a2e31, #2f3436);
     flex-grow: 1;
     padding: 1.5rem;
 }
@@ -53,6 +53,10 @@ header > img {
     color: var(--cor6);
 }
 
+.nav {
+    padding-bottom: 8px;
+}
+
 .nav-link {
     /* background-color: red; */
     margin: 0 0.5rem;
@@ -72,10 +76,12 @@ header > img {
     width: 100%;
     padding: 1rem;
     background-color: red;
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, #292727, #141414);
     color: #FFF;
     display: flex;
     align-items: center;
+    border-radius: 10px;
+    box-shadow:0px 7px 7px rgba(0, 0, 0, 0.411);
 }
 
 #carousel > div {
@@ -197,6 +203,29 @@ header > img {
 
 #conteudo {
     padding: 3rem 0.5rem 1rem;
+}
+
+#conteudo {
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #292727, #141414);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+
+.title,
+.text {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 .title {
