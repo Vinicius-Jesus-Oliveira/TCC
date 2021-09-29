@@ -16,6 +16,21 @@ body {
     margin-top: 8px;
 }
 
+ul {
+    list-style: none; 
+    padding-bottom: 10px;
+  }
+  
+  ul li::before {
+    content: "\2022";  
+    color: #00FFFF;; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+
 h2 {
     padding: 10px;
 }
