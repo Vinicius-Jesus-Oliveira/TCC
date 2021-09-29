@@ -222,17 +222,28 @@ header > img {
     color: white;
     align-items: center;
     justify-content: center;
-    min-width: 1000px;
-    max-width: 2000px;
+    min-width: 200px;
+    max-width: 900px;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
+.imagem {
+    padding-bottom: 50px;
+}
+
+.text, .imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .title,
 .text {
-    margin: 15px 0px;
+    margin: 15px 15px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
@@ -241,6 +252,6 @@ header > img {
 
 .title {
     text-align: center;
-    width: 100%;
+    font-size: 20px;
 }
 
