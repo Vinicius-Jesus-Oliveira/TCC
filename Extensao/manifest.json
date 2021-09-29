@@ -1,0 +1,33 @@
+{
+    "name": "SecurityEx",
+    "description": "Mantenha-se seguro enquanto navega diariamente pela internet",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "assets/icon_16.png",
+        "32": "assets/icon_32.png",
+        "48": "assets/icon_48.png",
+        "64": "assets/icon_64.png",
+        "128": "assets/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "assets/icon_16.png",
+            "32": "assets/icon_32.png",
+            "48": "assets/icon_48.png",
+            "64": "assets/icon_64.png",
+            "128": "assets/icon_128.png"
+        },
+        "default_title": "ESW",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "./background.js"
+        ]
+    },
+    "options_page": "./options.html",
+    "permissions": [
+        "tabs"
+    ]
+}
